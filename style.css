@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timer {
+    width: 200px;
+    margin: 50px auto;
+    font-size: 5em;
+    font-family: sans-serif;
+}
+
+.button {
+    width: 380px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    background-color: #e34040;
+    border-radius: 0.3em;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+.result {
+    background-color: rgba(227, 64, 64, 0.548);
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-block,
+.second-block {
+    width: 344px;
+    height: 344px;
+    border: 2px solid rgb(143, 141, 141);
+    box-shadow: 0 0 3px 3px rgb(185, 185, 185);
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    color: transparent;
+}
+
+.img {
+    background-image: url(./arsenal.png);
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 85px;
+    color: transparent;
+}
+
+.num1 {
+    background-position: 30px 0;
+}
+
+.num2 {
+    background-position: -55px 0;
+}
+
+.num3 {
+    background-position: -140px 0;
+}
+
+.num4 {
+    background-position: -225px 0;
+}
+
+.num5 {
+    background-position: 30px -85px;
+}
+
+.num6 {
+    background-position: -55px -85px;
+}
+
+.num7 {
+    background-position: -140px -85px;
+}
+
+.num8 {
+    background-position: -225px -85px;
+}
+
+.num9 {
+    background-position: 30px -170px;
+}
+
+.num10 {
+    background-position: -55px -170px;
+}
+
+.num11 {
+    background-position: -140px -170px;
+}
+
+.num12 {
+    background-position: -225px -170px;
+}
+
+.num13 {
+    background-position: 30px -255px;
+}
+
+.num14 {
+    background-position: -55px -255px;
+}
+
+.num15 {
+    background-position: -140px -255px;
+}
+
+.num16 {
+    background-position: -225px -255px;
+}
+
+.second-block div {
+    width: 85px;
+    height: 85px;
+}
+
+.modal-block {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 470px;
+    border: 1px solid rgb(119, 118, 118);
+    border-radius: 0.3em;
+    background-color: white;
+    display: none;
+}
+
+hr {
+    margin: 15px 0;
+    height: 2px;
+    background-color: lightgrey;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.modal-title {
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 35px;
+    text-align: center;
+}
+
+button {
+    border-radius: 0.3em;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+#close {
+    background-color: #e34040;
+    margin-left: 210px;
+}
+
+#check {
+    background-color: rgba(0, 128, 0, 0.87);
+    margin-left: 10px;
+}
+
+.black-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
